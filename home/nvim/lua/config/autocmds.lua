@@ -1,0 +1,26 @@
+-- Autocmds are automatically loaded on the VeryLazy event
+-- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
+-- Add any additional autocmds here
+--
+-- local augroup = vim.api.nvim_create_augroup
+-- local autocmd = vim.api.nvim_create_autocmd
+-- local psychosis448 = augroup("psychosis448", {})
+--
+-- -- auto reload buffers
+-- -- TODO: check if it works well enough
+-- vim.o.autoread = true
+-- autocmd({ "FileChangedShell", "BufWritePost", "BufEnter", "CursorHold", "CursorHoldI", "FocusGained" }, {
+-- 	group = psychosis448,
+-- 	pattern = "*",
+-- 	command = "if mode() != 'c' | checktime | endif",
+-- })
+--
+-- -- use nix fmt to save
+-- autocmd({ "BufWritePre" }, {
+-- 	group = psychosis448,
+-- 	pattern = "*",
+-- 	callback = function()
+-- 		local cb = vim.api.nvim_buf_get_name(0)
+-- 		vim.system({ "nix", "fmt", cb })
+-- 	end,
+-- })
