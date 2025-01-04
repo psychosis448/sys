@@ -3,6 +3,7 @@
     ./imv.nix
     ./nextcloud-client.nix
     ./screen-recording.nix
+    ./papis.nix
     ./photography.nix
     ./spotify.nix
     ./yt-dlp.nix
