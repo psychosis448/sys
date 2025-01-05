@@ -5,6 +5,7 @@
     ./desktop-env
     ./desktop-hypr
     ./desktop-wayland
+    ./emacs
     ./git
     ./mail
     ./media
