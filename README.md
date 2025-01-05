@@ -1,6 +1,7 @@
 # NixOS Systems Configurations
 
 - [nixos](https://nixos.org/)
+- [flake-parts](https://github.com/hercules-ci/flake-parts)
 - [nix-home-manager](https://github.com/nix-community/home-manager)
 - [nixos-anywhere](https://github.com/numtide/nixos-anywhere)
 - [nixos-generators](https://github.com/nix-community/nixos-generators)
