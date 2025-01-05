@@ -3,13 +3,10 @@
   ## NOTE: manual setup for doomemacs required
   ## git clone --depth 1 https://github.com/doomemacs/doomemacs $XDG_CONFIG_HOME/emacs
   ## $XDG_CONFIG_HOME/emacs/bin/doom install
-  ## NOTE: requires to run `doom sync && systemctl --user restart emacs` after change
   programs.emacs = {
     enable = true;
     package = pkgs.emacs;
-    extraPackages = epkgs: [
-
-    ]; 
+    extraPackages = epkgs: [];
   };
 
   services.emacs = {
