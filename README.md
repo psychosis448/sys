@@ -34,3 +34,9 @@ by [Πρωτεσίλαος](https://protesilaos.com/);
 partially adapted from [miikanissi](https://github.com/miikanissi/modus-themes.nvim?tab=readme-ov-file#extras).
 
 ![Agares, dargestellt in einer Ausgabe des Dictionnaire Infernal von 1863](https://upload.wikimedia.org/wikipedia/commons/3/38/Agares.jpg)
+
+## Malphas
+
+Malphas is a [Coder](https://coder.com/) Kubernetes Pod development environment.
+
+![Malphas, by Louis Le Breton, 1863](https://upload.wikimedia.org/wikipedia/commons/1/17/Malthas.jpg)
