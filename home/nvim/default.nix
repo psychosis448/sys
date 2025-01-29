@@ -3,6 +3,10 @@
   config,
   ...
 }: {
+  imports = [
+    ./go.nix
+  ];
+
   home.sessionVariables = {
     EDITOR = "nvim";
   };
@@ -17,12 +21,15 @@
       ## lsps
       lua-language-server
       marksman
+      nil
+      nixd
 
       ## linters
       markdownlint-cli2
 
       ## formatters
       prettierd
+      alejandra
     ];
     plugins = with pkgs.vimPlugins; [
       ## NOTE: LazyVim plugins used
@@ -103,6 +110,8 @@
           { "LazyVim/LazyVim", import = "lazyvim.plugins" },
           { import = "lazyvim.plugins.extras.coding.mini-surround" },
           { import = "lazyvim.plugins.extras.lang.markdown" },
+          { import = "lazyvim.plugins.extras.lang.go" },
+          { import = "lazyvim.plugins.extras.lang.nix" },
           -- import/override with your plugins
           { import = "plugins" },
         },

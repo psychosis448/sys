@@ -84,12 +84,6 @@ return {
                 hint = icons.diagnostics.Hint,
               },
             },
-            {
-              "filetype",
-              icon_only = true,
-              separator = "",
-              padding = { left = 1, right = 0 },
-            },
             { LazyVim.lualine.pretty_path() },
           },
           -- stylua: ignore
