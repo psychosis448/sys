@@ -42,5 +42,5 @@ partially adapted from [miikanissi](https://github.com/miikanissi/modus-themes.n
 Malphas is a [Coder](https://coder.com/) Kubernetes Pod development environment.
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Malthas.jpg" alt="Malphas, by Louis Le Breton, 1863" widht="50%" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Malthas.jpg" alt="Malphas, by Louis Le Breton, 1863" width="50%" />
 </div>
