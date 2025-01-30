@@ -1,6 +1,7 @@
 # NixOS Systems Configurations
 
 - [nixos](https://nixos.org/)
+- [flake-parts](https://github.com/hercules-ci/flake-parts)
 - [nix-home-manager](https://github.com/nix-community/home-manager)
 - [nixos-anywhere](https://github.com/numtide/nixos-anywhere)
 - [nixos-generators](https://github.com/nix-community/nixos-generators)
@@ -31,3 +32,5 @@ Agares is a [Wayland](https://wiki.archlinux.org/title/Wayland) based laptop.
 Theming is based on [modus-themes](https://github.com/protesilaos/modus-themes)
 by [Πρωτεσίλαος](https://protesilaos.com/);
 partially adapted from [miikanissi](https://github.com/miikanissi/modus-themes.nvim?tab=readme-ov-file#extras).
+
+![Agares, dargestellt in einer Ausgabe des Dictionnaire Infernal von 1863](https://upload.wikimedia.org/wikipedia/commons/3/38/Agares.jpg)
