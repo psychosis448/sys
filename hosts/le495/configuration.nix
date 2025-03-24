@@ -19,7 +19,7 @@
   programs.steam.enable = true;
   nixpkgs.config.allowUnfreePredicate = pkg:
     builtins.elem (lib.getName pkg) [
-      "samsung-UnifiedLinuxDriver"
+      "samsung-unified-linux-driver"
       "spotify"
       "steam"
       "steam-unwrapped"
