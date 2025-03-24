@@ -30,13 +30,13 @@
   ## https://github.com/nix-community/home-manager/issues/3514#issuecomment-2541776151
   xdg.configFile = {
     doom = {
-      source = config.lib.file.mkOutOfStoreSymlink ./doom;
+      source = ./doom;
       onChange = "${config.xdg.configHome}/doom sync";
     };
     # emacs = let
     #   doom-emacs = pkgs.fetchFromGitHub {
-    #     owner = "hlissner";
     #     repo = "doom-emacs";
+    #     owner = "hlissner";
     #     rev = "master";
     #     hash = "sha256-sebujw5VvBWMS+wXyjiGF81iyjPM/QQDnw5l7tDJCvk=";
     #   };
