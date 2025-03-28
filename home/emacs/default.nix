@@ -31,7 +31,7 @@
   xdg.configFile = {
     doom = {
       source = ./doom;
-      onChange = "${config.xdg.configHome}/doom sync";
+      onChange = "${config.xdg.configHome}/emacs/bin/doom sync";
     };
     # emacs = let
     #   doom-emacs = pkgs.fetchFromGitHub {

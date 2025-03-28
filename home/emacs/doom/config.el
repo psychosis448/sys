@@ -11,7 +11,8 @@
 
 ;; Text Display
 (setq display-line-numbers-type 'relative)
-(setopt global-display-fill-column-indicator-mode 80)
+(setopt global-display-fill-column-indicator-mode t)
+(setopt global-display-fill-column-indicator-column 80)
 (add-hook 'text-mode-hook 'turn-on-visual-line-mode)
 (add-hook 'text-mode-hook #'visual-fill-column-mode)
 

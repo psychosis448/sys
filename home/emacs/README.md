@@ -12,6 +12,7 @@
 
 ## TODO
 
+- [emacs workspaces permanently in tab bar](https://discourse.doomemacs.org/t/permanently-display-workspaces-in-the-tab-bar/4088/5)
 - [org-modern](https://github.com/minad/org-modern)
 - [org-fancy-priorities](https://github.com/harrybournis/org-fancy-priorities)
 - [org-super-agenda](https://github.com/alphapapa/org-super-agenda)
