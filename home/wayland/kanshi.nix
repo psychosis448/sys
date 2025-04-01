@@ -23,12 +23,12 @@
             position = "0,0";
           }
           {
-            criteria = "Eizo Nanao Corporation EV2795 23375090";
+            criteria = "Eizo Nanao Corporation EV2795 23335090";
             status = "enable";
             position = "1920,0";
           }
           {
-            criteria = "Eizo Nanao Corporation EV2795 23335090";
+            criteria = "Eizo Nanao Corporation EV2795 23375090";
             status = "enable";
             position = "4480,0";
             transform = "90";
@@ -43,12 +43,12 @@
             status = "disable";
           }
           {
-            criteria = "Eizo Nanao Corporation EV2795 23375090";
+            criteria = "Eizo Nanao Corporation EV2795 23335090";
             status = "enable";
             position = "0,0";
           }
           {
-            criteria = "Eizo Nanao Corporation EV2795 23335090";
+            criteria = "Eizo Nanao Corporation EV2795 23375090";
             status = "enable";
             position = "2560,0";
             transform = "90";
