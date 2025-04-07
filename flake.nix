@@ -72,17 +72,17 @@
             ];
             commands = [
               {
-                help = "Rebuild HM configuration for marlphas";
-                name = "malphas";
-                command = "nix run .#activateMalphas -- switch --flake .#malphas";
-              }
-              {
                 help = "Rebuild NixOS configuration for agares";
                 name = "agares";
                 command = "sudo nixos-rebuild switch --flake .#agares";
               }
+              {
+                help = "Rebuild HM configuration for marlphas";
+                name = "malphas";
+                command = "nix run .#activateMalphas -- switch --flake .#malphas";
+              }
             ];
-            packages = with pkgs; [ home-manager ];
+            packages = with pkgs; [home-manager];
           };
         };
       };
