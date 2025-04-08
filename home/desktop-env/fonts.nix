@@ -5,8 +5,8 @@
     noto-fonts-emoji
   ];
   fonts = {
-    defaultFonts = {
-      fontconfig = {
+    fontconfig = {
+      defaultFonts = {
         sansSerif = ["GeistMono Nerd Font Propo"];
         serif = ["GeistMono Nerd Font Propo"];
         monospace = ["GeistMono Nerd Font Mono"];
