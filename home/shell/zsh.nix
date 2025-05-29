@@ -10,7 +10,7 @@
     history = {
       path = "${config.xdg.dataHome}/zsh/zsh_history";
     };
-    initExtra = ''
+    initContent = ''
       bindkey -v
     '';
   };
