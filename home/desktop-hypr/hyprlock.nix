@@ -19,6 +19,8 @@
       label = [
         {
           text = "$TIME";
+          halign = "left";
+          valign = "bottom";
         }
       ];
     };
