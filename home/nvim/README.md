@@ -11,3 +11,5 @@ with [Home Manager](https://nix-community.github.io/home-manager/).
 
 - [nvim-orgmode](https://github.com/nvim-orgmode/orgmode)
 - [org-roam.nvim](https://github.com/chipsenkbeil/org-roam.nvim?tab=readme-ov-file)
+- [nvim-epub](https://github.com/CrystalDime/epub.nvim)
+- LaTeX

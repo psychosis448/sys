@@ -100,6 +100,10 @@
       ## neogit
       neogit
       diffview-nvim
+
+      ## orgmode
+      orgmode
+      org-roam-nvim
     ];
 
     extraLuaConfig = ''
