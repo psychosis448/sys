@@ -3,7 +3,7 @@
   services.hyprpaper = {
     enable = true;
     settings = let
-      wp = "jinx-graffiti-3840x2160-19975.jpg ";
+      wp = "0-wallpaper.jpg";
     in {
       preload = [
         "${config.xdg.userDirs.pictures}/wallpapers/${wp}"

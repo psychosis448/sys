@@ -6,7 +6,7 @@
     settings = {
       background = [
         {
-          path = "${config.xdg.userDirs.pictures}/wallpapers/sunset-mountain-minimalist-digital-art-4k-wallpaper-uhdpaper.com-658@2@b.jpg";
+          path = "${config.xdg.userDirs.pictures}/wallpapers/0-lockpaper.jpg";
           blur_passes = 1;
           color = "rgba(17, 17, 17, 1.0)";
         }
