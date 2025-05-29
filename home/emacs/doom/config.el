@@ -26,7 +26,11 @@
 (after! org
   :config
   (setq org-log-done 'time)
-  (setq org-todo-keywords
+  ;; https://github.com/doomemacs/doomemacs/blob/master/modules/lang/org/config.el#L40C10-L40C31
+  (setq +org-capture-todo-file "TODO.org")
+  (setq +org-capture-notes-file "0-inbox/notes.org")
+  (setq +org-capture-journal-file "0-inbox/inbox.org")
+ (setq org-todo-keywords
         '((sequence
            "PROJ(p)"  ; A project, which usually contains other tasks
            "LOOP(r)"  ; A recurring task
