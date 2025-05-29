@@ -87,11 +87,11 @@ done
 
 backup "-n"
 
-read -pr $'\n'"perform backup? [y/n] " __execute
+read -r -p $'\n'"perform backup? [y/n] " __execute
 
 if [ "$__execute" = "y" ]; then
 	echo "backing up..."
-	backup ""
+	backup "-i"
 	echo "...done"
 else
 	echo "...aborting"
