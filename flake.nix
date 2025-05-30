@@ -6,7 +6,9 @@
     flake-root.url = "github:srid/flake-root";
     flake-parts.url = "github:hercules-ci/flake-parts";
     treefmt-nix.url = "github:numtide/treefmt-nix";
+    treefmt-nix.inputs.nixpkgs.follows = "nixpkgs";
     disko.url = "github:nix-community/disko";
+    disko.inputs.nixpkgs.follows = "nixpkgs";
     devshell.url = "github:numtide/devshell";
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
@@ -82,7 +84,7 @@
                 command = "nix run .#activateMalphas -- switch --flake .#malphas";
               }
             ];
-            packages = with pkgs; [home-manager];
+            packages = [pkgs.home-manager];
           };
         };
       };
