@@ -8,24 +8,25 @@
   # https://github.com/emersion/mako/blob/master/mako.5.scd
   services.mako = {
     enable = true;
-    layer = "overlay";
-    sort = "-time";
-    width = 300;
-    height = 110;
-    borderSize = 1;
-    borderRadius = 5;
-    icons = true;
-    maxIconSize = 64;
-    defaultTimeout = 4000;
-    ignoreTimeout = false;
-    font = "monospace 10";
-    backgroundColor = "#111111";
-    textColor = "#d4d4d4";
-    borderColor = "#d4d4d490";
-    extraConfig = ''
-      [urgency=critical]
-      border-color=#d20f39
-      default-timeout=0
-    '';
+    settings = {
+      layer = "overlay";
+      sort = "-time";
+      width = 300;
+      height = 110;
+      border-size = 1;
+      border-radius = 5;
+      icons = true;
+      max-icon-size = 64;
+      default-timeout = 4000;
+      ignore-timeout = false;
+      font = "monospace 10";
+      background-color = "#111111";
+      text-color = "#d4d4d4";
+      border-color = "#d4d4d490";
+      "urgency=critical" = {
+        border-color = "#d20f39";
+        default-timeout = 0;
+      };
+    };
   };
 }

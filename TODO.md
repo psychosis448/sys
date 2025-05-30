@@ -37,6 +37,7 @@
 
 ## CONFIGS
 
+- <https://github.com/hlissner/dotfiles>
 - <https://github.com/fufexan/dotfiles>
 - <https://github.com/leona-ya/nixfiles>
 - <https://github.com/isabelroses/dotfiles>

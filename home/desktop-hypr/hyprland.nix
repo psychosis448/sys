@@ -119,7 +119,7 @@
       ];
       #
       # # See https://wiki.hyprland.org/Configuring/Keywords/ for more
-      "$mainMod" = "ALT";
+      "$mainMod" = "SUPER";
       #
       # # Example binds, see https://wiki.hyprland.org/Configuring/Binds/ for more
       # # For dispatchers, see https://wiki.hyprland.org/Configuring/Dispatchers/

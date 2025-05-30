@@ -7,6 +7,9 @@ with [Home Manager](https://nix-community.github.io/home-manager/).
 - [Example Configuration](https://github.com/KFearsoff/NixOS-config/tree/main/nixosModules/neovim)
 - [LazyVim Documentation](https://www.lazyvim.org/configuration)
 
-## Plugin Confiurations
+## TODO
 
-- [telescope](https://github.com/lazyvim/lazyvim/blob/main/lua/lazyvim/plugins/extras/editor/telescope.lua)
+- [nvim-orgmode](https://github.com/nvim-orgmode/orgmode)
+- [org-roam.nvim](https://github.com/chipsenkbeil/org-roam.nvim?tab=readme-ov-file)
+- [nvim-epub](https://github.com/CrystalDime/epub.nvim)
+- LaTeX

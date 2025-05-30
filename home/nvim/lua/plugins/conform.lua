@@ -1,8 +1,8 @@
 return {
   "stevearc/conform.nvim",
   optional = true,
+  event = { "BufWritePre" },
   opts = {
-    event = { "BufWritePre" },
     formatters_by_ft = {
       go = { "goimports", "gofumpt" },
       nix = { "alejandra" },
