@@ -1,12 +1,12 @@
 return {
   {
     "nvim-orgmode/orgmode",
-    event = 'VeryLazy',
-    ft = { 'org' },
+    event = "VeryLazy",
+    ft = { "org" },
     opts = function()
-      require('orgmode').setup({
-        org_agenda_files = '~/org/**/*',
-        org_default_notes_file = '~/org/notes.org',
+      require("orgmode").setup({
+        org_agenda_files = "~/org/**/*",
+        org_default_notes_file = "~/org/notes.org",
       })
     end,
   },
@@ -28,5 +28,5 @@ return {
         },
       })
     end,
-  }
+  },
 }
