@@ -104,6 +104,7 @@
       ## orgmode
       orgmode
       org-roam-nvim
+      headlines-nvim
     ];
 
     extraLuaConfig = ''

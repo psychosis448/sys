@@ -17,10 +17,10 @@
 (add-hook 'text-mode-hook #'visual-fill-column-mode)
 
 ;; Projectile
-(setq projectile-project-search-path '("~/org/" "~/sys/"))
+(setq projectile-project-search-path '("~/projects/"))
 
 ;; Org & Org-Roam Directories
-(setq org-directory "~/org/")
+(setq org-directory "~")
 (setq org-roam-directory org-directory)
 
 (after! org
@@ -28,8 +28,8 @@
   (setq org-log-done 'time)
   ;; https://github.com/doomemacs/doomemacs/blob/master/modules/lang/org/config.el#L40C10-L40C31
   (setq +org-capture-todo-file "TODO.org")
-  (setq +org-capture-notes-file "0-inbox/notes.org")
-  (setq +org-capture-journal-file "0-inbox/inbox.org")
+  (setq +org-capture-notes-file "inbox/notes.org")
+  (setq +org-capture-journal-file "inbox/inbox.org")
  (setq org-todo-keywords
         '((sequence
            "PROJ(p)"  ; A project, which usually contains other tasks
@@ -53,7 +53,7 @@
 
 (after! org-roam
   :config
-  (setq org-roam-dailies-directory "0-inbox")
+  (setq org-roam-dailies-directory "inbox")
   ;; https://github.com/org-roam/org-roam/blob/main/org-roam-capture.el
   (setopt org-roam-capture-templates
           '(("d" "default" plain "%?"
