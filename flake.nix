@@ -40,6 +40,7 @@
         self',
         ...
       }: {
+        ## TODO: move to 'flake' section
         legacyPackages.homeConfigurations.malphas = home-manager.lib.homeManagerConfiguration {
           pkgs = pkgs;
           modules = [
@@ -54,7 +55,6 @@
           package = pkgs.treefmt;
           programs = {
             alejandra.enable = true;
-            prettier.enable = true;
             stylua.enable = true;
           };
           settings.global.excludes = [
@@ -79,7 +79,7 @@
                 command = "sudo nixos-rebuild switch --flake .#agares";
               }
               {
-                help = "Rebuild HM configuration for marlphas";
+                help = "Rebuild HM configuration for malphas";
                 name = "malphas";
                 command = "nix run .#activateMalphas -- switch --flake .#malphas";
               }
